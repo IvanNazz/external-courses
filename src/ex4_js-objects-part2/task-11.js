@@ -1,5 +1,5 @@
 const showCharsCount = (str) => {
-  arr = [...str];
+  arr = str.split('');
 
   let newObj = {};
 
@@ -12,7 +12,7 @@ const showCharsCount = (str) => {
   });
   // eslint-disable-next-line guard-for-in
   for (let key in newObj) {
-  console.log("key: " + key + " value: " + newObj[key] );
+  console.log("key:" + key + "value:" + newObj[key]);
   }
 }
 module.exports = showCharsCount;
