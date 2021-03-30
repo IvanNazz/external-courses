@@ -2,28 +2,29 @@ function Calculator() {
 
     this.getResult = 0;
 
-    this.add = function(n) {
-        getResult += n;
-        return this.getResult;
+    this.add = (n) => {
+        this.getResult += n;
+        return this.add;
     };
 
-    this.subtract = function(n) {
-        getResult -= n;
-        return this.getResult;
+    this.subtract = (n) => {
+        this.getResult -= n;
+        return this.subtract;
     };
 
-    this.divide = function(n) {
-        getResult /= n;
-        return this.getResult;
+    this.divide = (n) => {
+        this.getResult /= n;
+        return this.divide;
     };
 
-    this.multiply = function(n) {
-        getResult *= n;
-        return this.getResult;
+    this.multiply = (n) => {
+        this.getResult *= n;
+        return this.multiply;
     };
 
-    this.reset = function () {
-        this.getResult = 0;
+    this.reset = () => {
+         // eslint-disable-next-line no-return-assign
+        return this.getResult = 0;
     }
 }
     let calculator = new Calculator();
