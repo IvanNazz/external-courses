@@ -1,6 +1,5 @@
-const simpleObj = function () {
+const getSimpleObj = function () {
 
     return Object.create(null);
-
 };
-module.exports = simpleObj;
+module.exports = getSimpleObj;

@@ -1,6 +1,5 @@
 const newStr = function (str) {
-    const result = str.split(' ').join('');
 
-    return result
+    return str.split(' ').join('');
 };
 module.exports = newStr;

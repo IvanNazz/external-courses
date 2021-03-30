@@ -1,8 +1,6 @@
 
 const strUpercase = function (str) {
     
-    const result = str[0].toUpperCase() + str.slice(1);
-
-    return result
+    return str[0].toUpperCase() + str.slice(1);
 };
 module.exports = strUpercase;

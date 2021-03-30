@@ -5,7 +5,6 @@ const strCoincidence = function (str, substr) {
     
         return true
     }
-
     return false
 };
 module.exports = strCoincidence;

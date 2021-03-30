@@ -5,9 +5,9 @@ const showCharsCount = (str) => {
 
   arr.forEach(item => {
     if (item in newObj){
-    newObj[item] = newObj[item] += 1
+    newObj[item] = newObj[item] = 1;
     } else {
-      newObj[item] = 1
+      newObj[item] = 1;
     }
   });
   // eslint-disable-next-line guard-for-in
