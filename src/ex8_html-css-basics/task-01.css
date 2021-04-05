@@ -1,0 +1,22 @@
+.beautiful-block {
+    text-align: center;
+    width: 500px;
+    height: 100px;
+    background-color: rgb(28, 235, 235); 
+}
+
+.table {
+    border-collapse: collapse; 
+    line-height: 1.1;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    background:  radial-gradient(farthest-corner at 50% 50%, white, #DCECF8);
+    color: #0C213B;
+}
+th {
+    padding: 10px; 
+    border: 1px solid #1d201f;
+}
+td {
+    padding: 5px 7px;
+    border: 1px solid #0f0f0f;
+}
