@@ -1,6 +1,8 @@
 function Calculator() {
 
-    this.getResult = 0;
+    this.getResult = () => {
+        this.getResult = 0;
+    };
 
     this.add = (n) => {
         this.getResult += n;
