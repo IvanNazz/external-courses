@@ -1,0 +1,21 @@
+.blok1 {
+    width: 300px;
+    height: 100px;
+    border-style: double;
+    background-color: rgb(127, 221, 33);
+    border-width: 5px;
+}
+.blok2 {
+    width: 300px;
+    height: 100px;
+    border-style: solid;
+    background-color: rgb(158, 44, 44);
+    border-width: 5px;
+}
+.blok3 {
+    width: 300px;
+    height: 100px;
+    border-style: inset;
+    background-color: rgb(120, 120, 167);
+    border-width: 5px;
+}
