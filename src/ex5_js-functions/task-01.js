@@ -1,8 +1,7 @@
 function Calculator() {
     this.result = 0;
     this.getResult = () => {
-       // eslint-disable-next-line no-return-assign
-       return this.result;
+        return this.result;
     };
 
     this.add = (n) => {
@@ -26,7 +25,7 @@ function Calculator() {
     };
 
     this.reset = () => {
-         // eslint-disable-next-line no-return-assign
+        // eslint-disable-next-line no-return-assign
         return this.result = 0;
     }
 }
