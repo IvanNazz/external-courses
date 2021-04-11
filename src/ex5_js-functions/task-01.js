@@ -1,32 +1,33 @@
 function Calculator() {
-
+    this.result = 0;
     this.getResult = () => {
-        this.getResult = 0;
+       // eslint-disable-next-line no-return-assign
+       return this.result;
     };
 
     this.add = (n) => {
-        this.getResult += n;
+        this.result += n;
         return this.add;
     };
 
     this.subtract = (n) => {
-        this.getResult -= n;
+        this.result -= n;
         return this.subtract;
     };
 
     this.divide = (n) => {
-        this.getResult /= n;
+        this.result /= n;
         return this.divide;
     };
 
     this.multiply = (n) => {
-        this.getResult *= n;
+        this.result *= n;
         return this.multiply;
     };
 
     this.reset = () => {
          // eslint-disable-next-line no-return-assign
-        return this.getResult = 0;
+        return this.result = 0;
     }
 }
     let calculator = new Calculator();
