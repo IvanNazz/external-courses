@@ -1,0 +1,21 @@
+.button {
+    width: 100%;
+    background: -webkit-linear-gradient(#f6f6f6, #969090);
+    border-radius: 6px;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 9px;
+    font-weight: bold;
+    
+}
+.wraper-button {
+    display: flex;
+    width: 150px;
+    height: 40px;
+    border-style: double;
+    border: 6px solid #c5c0c0;
+    border-radius: 12px;
+}
+.text-button {
+    color: gray;
+}
