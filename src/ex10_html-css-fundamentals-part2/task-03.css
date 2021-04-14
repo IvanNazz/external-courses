@@ -1,0 +1,24 @@
+
+.str1 {
+    background-color: #11a7a7;
+    height: 50px;
+    text-align: center;
+}
+.title__table {
+    height: 25px;
+}
+.str2 {
+    background-color: rgb(175, 247, 247);
+    height: 50px;
+    text-align: center;
+}
+tr {
+    padding: 10px;  
+}
+table {
+    width: 600px ;
+    height: 400px;
+}
+table :hover {
+    background-color: rgb(200, 240, 107);
+}

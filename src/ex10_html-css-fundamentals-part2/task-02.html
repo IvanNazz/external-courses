@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Html basics</title> 
+        <link rel="stylesheet" href="task-02.css">
+    </head>
+    <body>
+        <form>
+            <fieldset>
+                <legend>Personal data</legend>
+                <p><label for="name">Surname </label><input type="text" name="Surname"></p>
+                <p><label for="name">First Name </label><input type="text" name="First Name"></p>
+                <p><label for="name">Midle Name </label><input type="text" name="Midle Name"></p>
+                <p><label for="You are">You are</label> <input type="radio"><label for="You are">male</label> <input type="radio"><label for="You are">famale</label></p>
+                <p><label for="number">Age </label><input type="number" min = "18" max="101" name="number"></p>
+                <p><label for="Country of Residence">Country of Residence </label> <select>Список</select></p>
+                <p><label for="City">City</label> <input type="checkbox"><label for="City">Ruazan</label> <input type="checkbox"><label for="City">Moscow</label></p>
+                <p><label for="Photografy">Photografy </label><input type="file" name="Photografy"></p>
+                <hr>
+                    <p><label for="Title"> Title </label> <select>
+                    <optgroup label="Группа 1">
+                        <option>Опция 1.1</option>
+                    </optgroup>
+                    <optgroup label="Группа 2">
+                        <option>Опция 2.1</option>
+                        <option>Опция 2.2</option>
+                    </optgroup>
+                    <optgroup label="Группа 3" disabled>
+                        <option>Опция 3.1</option>
+                        <option>Опция 3.2</option>
+                        <option>Опция 3.3</option>
+                    </optgroup>
+                    </select> 
+                    </p>
+                    <p><label for="Salary">Salary </label><input type="range" name="Salary"></p>
+                    <p><textarea name="comment" cols="40" rows="3"></textarea></p></p>
+            </fieldset>
+            <fieldset>
+                <legend>Contact information</legend>
+                <p><label for="City">Cite </label><input type="text" name="Cite"></p>
+                <p><label for="email">E-mail </label><input type="email" name="email"></p>
+                <p><label for="Phone">Phone </label><input type="tel" name="Phone"></p>
+                </fieldset>
+                <p><label for="Password">Password </label><input type="Password" name="Password"></p>
+            <p><input type="submit" value="Отправить"> <input type="reset" value="Сбросить"></p>
+        </form>
+    </body>
